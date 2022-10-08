@@ -1,6 +1,13 @@
 /*CSS układu strony*/
 
 /*Klasa HTML*/
+body {
+    margin: 0;
+}
+ul, li {
+    padding: 0;
+    list-style-type: none;
+}
 .grid-container {
     display: grid;
     grid-template-columns: 20% 60% 20%;
@@ -11,10 +18,16 @@ header{
     text-align: center;
 }
 nav {
-    padding: 30px; // margines
+    padding: 30px; // odstęp
 }
 article {
     padding: 30px;
+}
+article img {
+    width: 100%;
+}
+article p {
+    margin-top: 30px;
 }
 aside {
     padding: 30px;
