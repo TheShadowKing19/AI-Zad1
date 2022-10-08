@@ -7,5 +7,36 @@ body {
 }
 
 header {
+    border-bottom: 1px solid #438fb5;
+}
 
+nav {
+    border-right: 1px solid #438fb5;
+}
+
+nav p {
+    border: 1px solid #438fb5;
+}
+
+aside {
+    border-left: 1px solid #438fb5;
+}
+
+footer {
+    border-top: 1px solid #438fb5;
+}
+
+/*Responsywność*/
+@media screen and (max-width: 1200px) {
+    nav {
+        border-right: 0;
+        border-bottom: 1px solid #438fb5;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    aside {
+        border-left: 0;
+        border-top: 1px solid #438fb5;
+    }
 }

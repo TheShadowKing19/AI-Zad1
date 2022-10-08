@@ -10,7 +10,8 @@ ul, li {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    /*Lepiej używać "fr" niż "%" - lepsze skalowanie ekranu*/
+    grid-template-columns: 1fr 3fr 1fr;
     column-gap: 30px;
 }
 header{
@@ -28,6 +29,9 @@ article img {
 }
 article p {
     margin-top: 30px;
+}
+article h2 {
+    max-width: 800px;
 }
 aside {
     padding: 30px;
