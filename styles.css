@@ -1,0 +1,52 @@
+/*CSS układu strony*/
+
+/*Klasa HTML*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    column-gap: 30px;
+}
+header{
+    grid-column: span 3;
+    text-align: center;
+}
+nav {
+    padding: 30px; // margines
+}
+article {
+    padding: 30px;
+}
+aside {
+    padding: 30px;
+}
+footer {
+    grid-column: span 3;
+    text-align: center;
+    padding: 30px;
+}
+
+/*Responsywność*/
+@media screen and (max-width: 1200px) {
+    nav{
+        grid-column: span 3;
+    }
+    nav li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    article {
+        grid-column: span 2;
+    }
+    aside {
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    nav, article, aside {
+        grid-column: span 3;
+    }
+    aside {
+        text-align: center;
+    }
+}
