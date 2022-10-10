@@ -4,26 +4,40 @@ Import czcionki*/
 
 body {
     font-family: "Poppins";
+    background-image: url("img/background.jpg");
+    background-size: 150%;
+    position: center;
 }
 
 header {
-    border-bottom: 1px solid #438fb5;
+    background-color: black;
+    color: white;
 }
 
 nav {
-    border-right: 1px solid #438fb5;
+    border-right: 1px solid grey;
 }
 
 nav p {
-    border: 1px solid #438fb5;
+    background-color: black;
+    color: white;
+
 }
 
 aside {
-    border-left: 1px solid #438fb5;
+    border-left: 1px solid gray;
+
 }
 
 footer {
-    border-top: 1px solid #438fb5;
+    border-top: 1px solid grey;
+    color: whitesmoke;
+}
+
+article p {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: oldlace;
 }
 
 /*Responsywność*/
