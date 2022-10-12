@@ -2,6 +2,10 @@
 Import czcionki*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap');
 
+ul, li {
+    list-style-type: none;
+}
+
 body {
     font-family: "Poppins";
     background-image: url("img/background.jpg");
@@ -52,5 +56,9 @@ article p {
     aside {
         border-left: 0;
         border-top: 1px solid #438fb5;
+    }
+    article img {
+        background-color: white;
+        border: 1px solid black;
     }
 }
